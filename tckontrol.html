@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(78, 119, 119);
+        }
+    </style>
+</head>
+<body >
+    
+    <div class="container mt-3" >
+        <form>
+            <div class="form-group ">
+                <label class="d-block text-center fw-bold mb-2" for="tc">TC NO</label>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" id="tc" class="form-control d-block">
+                        <button type="button" id="btn" class=" btn btn-dark mt-2  w-100">Control</button>
+                    </div>
+                    
+                </div>
+                <p id="resultfalse" class="alert alert-danger" style="display: none;"></p>
+                <p id="resulttrue" class="alert alert-success" style="display: none;"></p>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
